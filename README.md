@@ -11,7 +11,7 @@ Instructor: `Mehdi Akbari`
 
 **Table of Contents**
 
-- [AWS Academy lab: Securing and Monitoring Resources with AWS](#aws-academy-lab-securing-and-monitoring-resources-with-aws)
+- [Securing and Monitoring Resources with AWS](#aws-academy-lab-securing-and-monitoring-resources-with-aws)
   - [Phase 1: Securing Data in Amazon S3](#phase-1-securing-data-in-amazon-s3)
     - [Task 1.1: Create a bucket, apply a bucket policy, and test access](#task-11-create-a-bucket-apply-a-bucket-policy-and-test-access)
     - [Task 1.2: Enable versioning and object-level logging on a bucket](#task-12-enable-versioning-and-object-level-logging-on-a-bucket)
