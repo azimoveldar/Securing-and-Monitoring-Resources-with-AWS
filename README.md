@@ -4,10 +4,8 @@ This project is part of the `Security Management` in the `Cloud Architecture & A
 
 The tasks are from `AWS Academy` lab: `Securing and Monitoring Resources with AWS`. It focuses on securing AWS resources such as S3, VPCs, and implementing encryption with AWS KMS, along with monitoring and logging using AWS CloudTrail, CloudWatch, and AWS Config.
 
-Student: `Eldar Azimov`  
+Students: `Eldar Azimov` and `Ankush Gautam Patil`   
 Instructor: `Mehdi Akbari`
-
-
 
 **Table of Contents**
 
@@ -41,3 +39,68 @@ Instructor: `Mehdi Akbari`
     - [Task 4.2: Use CloudWatch Logs to monitor secure logs](#task-42-use-cloudwatch-logs-to-monitor-secure-logs)
     - [Task 4.3: Create a CloudWatch alarm to send notifications for security incidents](#task-43-create-a-cloudwatch-alarm-to-send-notifications-for-security-incidents)
     - [Task 4.4: Configure AWS Config to assess security settings and remediate the configuration of AWS resources](#task-44-configure-aws-config-to-assess-security-settings-and-remediate-the-configuration-of-aws-resources)
+
+
+
+## Phase 1: Securing Data in Amazon S3
+
+### Task 1.1: Create a bucket, apply a bucket policy, and test access
+
+
+![alt text](img/img1.1-1.jpg)
+
+```json
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Sid": "AllowSpecificUsers",
+            "Effect": "Allow",
+            "Principal": {
+                "AWS": "*"
+            },
+            "Action": "s3:*",
+            "Resource": [
+                "arn:aws:s3:::data-bucket-8352586",
+                "arn:aws:s3:::data-bucket-8352586/*"
+            ],
+            "Condition": {
+                "StringEquals": {
+                    "aws:PrincipalArn": [
+                        "arn:aws:iam::851725468589:role/voclabs",
+                        "arn:aws:iam::851725468589:user/paulo",
+                        "arn:aws:iam::851725468589:user/sofia"
+                    ]
+                }
+            }
+        },
+        {
+            "Sid": "DenyEveryoneElse",
+            "Effect": "Deny",
+            "Principal": {
+                "AWS": "*"
+            },
+            "Action": "s3:*",
+            "Resource": [
+                "arn:aws:s3:::data-bucket-8352586",
+                "arn:aws:s3:::data-bucket-8352586/*"
+            ],
+            "Condition": {
+                "StringNotEquals": {
+                    "aws:PrincipalArn": [
+                        "arn:aws:iam::851725468589:role/voclabs",
+                        "arn:aws:iam::851725468589:user/paulo",
+                        "arn:aws:iam::851725468589:user/sofia"
+                    ]
+                }
+            }
+        }
+    ]
+}
+```
+
+![alt text](img/img1.1-2.jpg)
+
+![alt text](img/img1.1-3.jpg)
+
+### Task 1.2: Enable versioning and object-level logging on a bucket
