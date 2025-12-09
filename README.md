@@ -124,3 +124,10 @@ Instructor: `Mehdi Akbari`
 
 
 ### Task 1.5: Confirm object-level logging and query the access logs by using Athena
+
+![alt text](img/img1.5-1.jpg)
+
+![alt text](img/img1.5-2.jpg)
+
+## Phase 2: Securing VPCs
+### Task 2.1: Review LabVPC and its associated resources  
