@@ -131,3 +131,27 @@ Instructor: `Mehdi Akbari`
 
 ## Phase 2: Securing VPCs
 ### Task 2.1: Review LabVPC and its associated resources  
+![alt text](img/img2.1-1.jpg)  
+![alt text](img/img2.1-2.jpg)
+
+### Task 2.2: Create a VPC flow log
+![alt text](img/img2.2.jpg)
+
+
+### Task 2.3: Access the WebServer instance from the internet and review VPC flow logs in CloudWatch
+
+![alt text](img/img2.3.jpg)
+
+### Task 2.4: Configure route table and security group settings
+
+![alt text](img/img2.4-1.jpg)
+
+![alt text](img/img2.4-2.jpg)
+
+![alt text](img/img2.4-3.jpg)
+
+### Task 2.5: Secure the WebServerSubnet with a network ACL
+
+![alt text](img/img2.5.jpg)
+
+### Task 2.6: Review NetworkFirewallVPC and its associated resources
