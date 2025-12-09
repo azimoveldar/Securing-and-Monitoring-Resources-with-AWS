@@ -103,4 +103,24 @@ Instructor: `Mehdi Akbari`
 
 ![alt text](img/img1.1-3.jpg)
 
+
 ### Task 1.2: Enable versioning and object-level logging on a bucket
+
+![alt text](img/img1.2-1.jpg)
+
+![alt text](img/img1.2-2.jpg)
+
+
+### Task 1.3: Implement the S3 Inventory feature on a bucket
+
+![alt text](img/img1.3.jpg)
+
+
+### Task 1.4: Confirm that versioning works as intended
+
+![alt text](img/img1.4-1.jpg)
+
+![alt text](img/img1.4-2.jpg)
+
+
+### Task 1.5: Confirm object-level logging and query the access logs by using Athena
