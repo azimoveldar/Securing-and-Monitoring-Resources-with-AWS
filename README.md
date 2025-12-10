@@ -155,3 +155,34 @@ Instructor: `Mehdi Akbari`
 ![alt text](img/img2.5.jpg)
 
 ### Task 2.6: Review NetworkFirewallVPC and its associated resources
+
+![alt text](img/img2.6.jpg)
+
+### Task 2.7: Create a network firewall
+
+![alt text](img/img2.7.jpg)
+
+### Task 2.8: Create route tables
+
+![alt text](img/img2.8-1.jpg)
+
+![alt text](img/img2.8-2.jpg)
+
+![alt text](img/img2.8-3.jpg)
+
+### Task 2.9: Configure logging for the network firewall
+
+![alt text](img/img2.9.jpg)
+
+### Task 2.10: Configure the firewall policy and test access
+
+![alt text](img/img2.10-1.jpg)
+
+![alt text](img/img2.10-2.jpg)
+
+![alt text](img/img2.10-3.jpg)
+
+![alt text](img/img2.10-4.jpg)
+
+## Phase 3: Securing AWS resources by using AWS KMS
+### Task 3.1: Create a customer managed key and configure key rotation
