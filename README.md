@@ -186,3 +186,36 @@ Instructor: `Mehdi Akbari`
 
 ## Phase 3: Securing AWS resources by using AWS KMS
 ### Task 3.1: Create a customer managed key and configure key rotation
+
+![alt text](img/img3.1.jpg)
+
+### Task 3.2: Update the AWS KMS key policy and analyze an IAM policy
+
+![alt text](img/img3.2-1.jpg)  
+
+![alt text](img/img3.2-2.jpg)
+
+### Task 3.3: Use AWS KMS to encrypt data in Amazon S3
+
+![alt text](img/img3.3-1.jpg)
+
+![alt text](img/img3.3-2.jpg)
+
+### Task 3.4: Use AWS KMS to encrypt the root volume of an EC2 instance
+
+![alt text](img/img3.4.jpg)
+
+### Task 3.5: Use AWS KMS envelope encryption to encrypt data in place
+
+![alt text](img/img3.5-1.jpg)
+
+![alt text](img/img3.5-2.jpg)
+
+![alt text](img/img3.5-3.jpg)
+
+### Task 3.6: Use AWS KMS to encrypt a Secrets Manager secret
+
+![alt text](img/img3.6.jpg)
+
+## Phase 4: Monitoring and logging
+### Task 4.1: Use CloudTrail to record Amazon S3 API calls
