@@ -219,3 +219,29 @@ Instructor: `Mehdi Akbari`
 
 ## Phase 4: Monitoring and logging
 ### Task 4.1: Use CloudTrail to record Amazon S3 API calls
+
+![alt text](img/img4.1-1.jpg)
+
+![alt text](img/img4.1-2.jpg)
+
+![alt text](img/img4.1-3.jpg)
+
+
+### Task 4.2: Use CloudWatch Logs to monitor secure logs
+
+![alt text](img/img4.2-1.jpg)
+
+![alt text](img/img4.2-2.jpg)
+
+![alt text](img/img4.2-3.jpg)
+
+
+### Task 4.3: Create a CloudWatch alarm to send notifications for security incidents
+
+![alt text](img/img4.3.jpg)
+
+### Task 4.4: Configure AWS Config to assess security settings and remediate the configuration of AWS resources
+
+![alt text](img/img4.4-2.jpg)
+
+![alt text](img/img4.4-1.jpg)
